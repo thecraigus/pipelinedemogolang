@@ -1,0 +1,15 @@
+---
+globals:
+  local_asn: 65000
+  local_rid: 55.55.55.55
+bgp_neighbors:
+  peer_a:
+    prefix: 1.1.1.1
+    remoteasn: 65010
+    keepalive: 30
+    holdtime: 90
+  peer_b:
+    prefix: 2.2.2.2
+    remoteasn: 65011
+    keepalive: 30
+    holdtime: 90
